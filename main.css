@@ -1,0 +1,347 @@
+/* Img menú */
+/* Mobile First */
+header label {
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+}
+
+.home-nav {
+    position: absolute;
+    background-color: #c9c9c9;
+    margin-left: -70%;
+    transition: all 0.5s;
+}
+
+.home-nav-lista {
+    flex-direction: column;
+}
+
+.home-nav-lista li {
+    border-top: 1px solid #fff;
+}
+
+#btn-menu:checked ~ .home-nav { 
+    margin: 0;
+}
+
+header label:hover {
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+}
+
+#btn-menu {
+    display: none;
+}
+
+
+/* General */
+body {
+    font-family: sans-serif, arial ;
+    margin: 0;
+}
+
+/* Menú */
+header {
+width:100%;
+display: grid;
+grid-template-columns: 0.5fr 0fr 3fr;
+background-color: #c9c9c9;
+}
+
+/* Navegación */
+.home-nav-lista {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    display: flex;
+    justify-content: end;
+    }
+
+.home-nav-lista li:hover {
+    background: rgba(0,0,0,0.3);
+}
+
+.home-nav-lista li a {
+    display: grid;
+    padding: 15px 20px;
+    color: #424242;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+/* Título + subtitulo */
+.titulo-subtitulo {
+    color: #424242
+}
+
+.logo {
+    display: none;
+    margin: 5px 10px;
+    width: 141px;
+    height: 55px;
+    }
+
+.titulo {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-family: 'Baskerville Old Face', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+        
+.subtitulo {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    }
+
+/* Footer General */
+.footer-fmu {
+    text-align: center;
+}
+
+.redes {
+    text-align: center;
+}
+
+.logo-ig {
+width:30px;
+height: 30px;
+}
+
+.logo-tw {
+    width:30px;
+    height: 30px;
+    }
+
+.logo-fb {
+    width:30px;
+    height: 30px;
+    }
+
+.logo-in {
+    width:30px;
+    height: 30px;
+    }
+
+.portada {
+    width: 100%;
+}
+
+/* Texto Estudio */
+.detalle-estudio {
+    font-family: 'sans-serif', 'Arial', 'Helvetica';
+    text-align: center;
+}
+
+/* Quienes somos */
+#socios {
+    font-family: 'sans-serif', 'Arial', 'Helvetica';
+    table-layout: fixed;
+    width: 50%;
+    font-style: italic;
+}
+
+#img-mercedes {
+    width: 214px;
+    height: 214px;
+}
+
+.experiencia-mercedes {
+    flex-direction: column;
+    font-style: italic;
+}
+
+/* Ubicación */
+#texto-ubic {
+    font-size: 15px;
+    width: 80%;
+}
+
+.titulo-subtitulo-ubic {
+    font-family: 'sans-serif', 'Arial', 'Helvetica';
+    font-style: italic;
+}
+
+#direccion {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.mapa {
+    width: 80%;
+}
+
+/* Servicios */
+.derecho-previsional {
+    display:flex;
+}
+
+.texto-derecho-prev {
+    flex-direction: column;
+}
+
+.titulo-servicio {
+    color: #7181eb;
+}
+
+#img-derecho-prev {
+    width: 150px;
+    height: 150px;  
+    animation-name: fade-in;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 3s;
+    animation-delay: .5s; 
+}
+
+.derecho-familia {
+    display:flex;
+}
+
+.texto-derecho-fam {
+    flex-direction: column;
+}
+
+#img-derecho-fam {
+    width: 150px;
+    height: 150px;
+    animation-name: fade-in;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 3s;
+    animation-delay: .5s;
+}
+
+@keyframes fade-in {
+    0% {
+        transform: translateX(400px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(0px);
+        opacity: .5;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+
+}
+
+/* Título Contactanos */
+#home-form {
+    border: solid #0095eb;
+    color: white;
+    text-align: center;
+    background-color: #0095eb;
+    max-width: 515px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    
+}
+
+/* Formulario */
+.formulario-contacto {
+    padding:60px;
+    max-width: 400px;
+    background-color: #E7E7E7;
+    margin: 0 auto;
+}
+
+.formulario-contacto input{
+    margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box; 
+  border: none; 
+  color: #525c66; 
+  font-size: 1em;
+  resize: none; 
+}
+
+#enviar {
+	display: block;
+	background-color: #0095eb;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	font-size: 1em; 
+	color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+#mensaje {
+    margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box; 
+  border: none; 
+  color: #525c66; 
+  font-size: 1em;
+  resize: none;
+}
+
+@media screen and (min-width: 768px) {
+
+    .logo {
+        display: block;
+        margin: 5px 10px;
+        width: 141px;
+        height: 55px;
+        }
+
+    header label {
+        display: none;
+    }
+
+    .home-nav {
+        position: relative;
+        display: flex;
+        justify-content: end;
+        background-color: #c9c9c9;
+        margin-left: 0;
+    }
+
+    header {
+        width:100%;
+        display: grid;
+        grid-template-columns: 0.5fr 2fr 3fr;
+        background-color: #c9c9c9;
+        }
+    
+    .home-nav-lista {
+        flex-direction: row;
+        align-content: center;
+    } 
+
+    .home-nav-lista li {
+        border-right: solid 1px white;
+        border-top: none;
+    }
+
+    .mercedes {
+        display: flex;
+    }
+
+    .mapa {
+        width: 70%;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+
+    .mapa {
+        width: 60%;
+    }
+
+}
+
