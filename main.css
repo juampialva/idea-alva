@@ -10,7 +10,7 @@ header label {
 
 .home-nav {
     position: absolute;
-    background-color: #c9c9c9;
+    background-color: #688ecb;
     margin-left: -70%;
     transition: all 0.5s;
 }
@@ -48,7 +48,7 @@ header {
 width:100%;
 display: grid;
 grid-template-columns: 0.5fr 0fr 3fr;
-background-color: #c9c9c9;
+background-color: #688ecb;
 }
 
 /* Navegación */
@@ -306,7 +306,7 @@ height: 30px;
         position: relative;
         display: flex;
         justify-content: end;
-        background-color: #c9c9c9;
+        background-color: #688ecb;
         margin-left: 0;
     }
 
@@ -314,7 +314,7 @@ height: 30px;
         width:100%;
         display: grid;
         grid-template-columns: 0.5fr 2fr 3fr;
-        background-color: #c9c9c9;
+        background-color: #688ecb;
         }
     
     .home-nav-lista {
