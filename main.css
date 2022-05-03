@@ -306,7 +306,7 @@ height: 30px;
         position: relative;
         display: flex;
         justify-content: end;
-        background-color: #688ecb;
+        background-color: #c9c9c9;
         margin-left: 0;
     }
 
@@ -314,7 +314,7 @@ height: 30px;
         width:100%;
         display: grid;
         grid-template-columns: 0.5fr 2fr 3fr;
-        background-color: #688ecb;
+        background-color: #c9c9c9;
         }
     
     .home-nav-lista {
