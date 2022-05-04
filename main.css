@@ -2,8 +2,8 @@
 /* Mobile First */
 header label {
     display: block;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     padding: 10px;
     border-right: 1px solid #fff;
 }
@@ -76,7 +76,8 @@ background-color: #c9c9c9;
 
 /* Título + subtitulo */
 .titulo-subtitulo {
-    color: #424242
+    color: #424242;
+    font-family: 'Baskerville Old Face', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .logo {
@@ -87,16 +88,16 @@ background-color: #c9c9c9;
     }
 
 .titulo {
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 0px;
     font-size: 20px;
-    font-family: 'Baskerville Old Face', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
     }
         
 .subtitulo {
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 12px;
+    font-size: 14px;
     }
 
 /* Footer General */
@@ -106,6 +107,7 @@ background-color: #c9c9c9;
 
 .redes {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .logo-ig {
@@ -134,13 +136,11 @@ height: 30px;
 
 /* Texto Estudio */
 .detalle-estudio {
-    font-family: 'sans-serif', 'Arial', 'Helvetica';
     text-align: center;
 }
 
 /* Quienes somos */
 #socios {
-    font-family: 'sans-serif', 'Arial', 'Helvetica';
     table-layout: fixed;
     width: 50%;
     font-style: italic;
@@ -152,6 +152,7 @@ height: 30px;
 }
 
 .experiencia-mercedes {
+    margin-top: 20px;
     flex-direction: column;
     font-style: italic;
 }
@@ -163,17 +164,19 @@ height: 30px;
 }
 
 .titulo-subtitulo-ubic {
-    font-family: 'sans-serif', 'Arial', 'Helvetica';
+    margin:20px;
     font-style: italic;
 }
 
 #direccion {
     font-size: 14px;
     font-style: italic;
+    margin: 0 20px;
 }
 
 .mapa {
     width: 80%;
+    margin: 0 20px;
 }
 
 /* Servicios */
@@ -190,6 +193,7 @@ height: 30px;
 }
 
 #img-derecho-prev {
+    margin: 0 20px;
     width: 150px;
     height: 150px;  
     animation-name: fade-in;
@@ -208,6 +212,7 @@ height: 30px;
 }
 
 #img-derecho-fam {
+    margin: 0 20px;
     width: 150px;
     height: 150px;
     animation-name: fade-in;
@@ -239,46 +244,25 @@ height: 30px;
     color: white;
     text-align: center;
     background-color: #0095eb;
-    max-width: 515px;
+    max-width: 400px;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
+    font-size: 24px;
     
 }
 
 /* Formulario */
 .formulario-contacto {
-    padding:60px;
+    padding:20px 40px;
     max-width: 400px;
     background-color: #E7E7E7;
     margin: 0 auto;
 }
 
 .formulario-contacto input{
-    margin-bottom: 15px;
-  font-family: "Roboto", sans-serif;
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box; 
-  border: none; 
-  color: #525c66; 
-  font-size: 1em;
-  resize: none; 
-}
-
-#enviar {
-	display: block;
-	background-color: #0095eb;
-	padding: 10px 45px 10px 45px;
-	border: 0;
-	font-size: 1em; 
-	color: white;
-  font-family: "Roboto", sans-serif;
-}
-
-#mensaje {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
   font-family: "Roboto", sans-serif;
   width: 100%;
   padding: 10px;
@@ -287,6 +271,34 @@ height: 30px;
   color: #525c66; 
   font-size: 1em;
   resize: none;
+  max-height: 30px;
+}
+
+#enviar {
+	display: block;
+	background-color: #0095eb;
+    height: 40px;
+	border: 0;
+    cursor: pointer;
+    padding: 0;
+	font-size: 1em; 
+	color: white;
+    font-family: "Roboto", sans-serif;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+#mensaje {
+    margin-bottom: 0;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box; 
+  border: none; 
+  color: #525c66; 
+  font-size: 1em;
+  resize: none;
+  max-height: 150px;
 }
 
 @media screen and (min-width: 768px) {
@@ -325,6 +337,16 @@ height: 30px;
     .home-nav-lista li {
         border-right: solid 1px white;
         border-top: none;
+    }
+
+    .titulo {
+        margin-top: 10px;
+        margin-bottom: 0px;
+        }
+
+    .subtitulo {
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     .mercedes {
