@@ -140,19 +140,25 @@ height: 30px;
 }
 
 /* Quienes somos */
+#titulo-socios {
+margin-left: 20px;
+margin-top: 20px;
+}
+
 #socios {
+    margin-left: 20px;
     table-layout: fixed;
     width: 50%;
     font-style: italic;
 }
 
 #img-mercedes {
+    margin-left: 20px;
     width: 214px;
     height: 214px;
 }
 
 .experiencia-mercedes {
-    margin-top: 20px;
     flex-direction: column;
     font-style: italic;
 }
@@ -180,6 +186,22 @@ height: 30px;
 }
 
 /* Servicios */
+.portada {
+    margin-bottom: 40px;
+}
+
+.info-derechos {
+    display: block;
+}
+
+.definicion-der-prev {
+    margin-top: 20px;
+}
+
+.definicion-der-fam {
+    margin-top: 20px;
+}
+
 .derecho-previsional {
     display:flex;
 }
@@ -355,6 +377,10 @@ height: 30px;
 
     .mapa {
         width: 70%;
+    }
+
+    .info-derechos {
+        display: flex;
     }
     
 }
