@@ -275,6 +275,12 @@ margin-top: 20px;
     
 }
 
+.img-index-1 {
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
 /* Formulario */
 .formulario-contacto {
     padding:20px 40px;
@@ -382,6 +388,8 @@ margin-top: 20px;
     .info-derechos {
         display: flex;
     }
+
+
     
 }
 
